@@ -26,6 +26,7 @@ A collection of 3 comprehensive business intelligence and product analytics case
     - **Google × English:** Peak economics. June performance reaches $\\approx 2.67x$ and shows clear growth ($\\text{Jan: } 2.09 \\rightarrow \\text{Jun: } 2.67$).
     - **Facebook × Arabic:** Late-stage breakout performance. Surged from $0.94$ in January to $2.44$ in June, representing the fastest scaling velocity in the dataset.
     - **Google × Spanish:** Consistent upward trend, climbing from $1.41$ in January to $1.94$ in June.
+![Problem: case1_cohort_analysis](case1_cohort_analysis.png)
 - **Trap #1 — Single-Facet Analysis (Source-Only Blending):** > **The Illusion:** Looking strictly at the acquisition source shows Facebook blended at $\\approx 1.42$, which superficially outperforms Google's break-even blend of $\\approx 1.05$.  
     _Naivety:_ A surface-level conclusion suggests "scale Facebook, cut Google." However, 2 out of the top 3 individual performing segments are hidden directly inside Google.
 - **Trap #2 — Single-Facet Analysis (Language-Only Blending):  
