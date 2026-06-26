@@ -1,5 +1,6 @@
 # google-sheets-analytics-1
 A collection of 3 comprehensive business intelligence and product analytics cases in Google Sheets. Covers product performance metrics, strategic goal tracking, and commercial data modeling. Features automated dashboards built using complex lookups, dynamic filtering, and custom visualization frameworks.
+> 💡 **How to review:** > You can either click the links below in this file to view in Google Sheets, or open the attached pdf files.
 # 🔵 Tasks
 ### **🔹 Case 1: Unit Economics & Paid Acquisition Scaling (Marketing Intelligence)**
 
@@ -21,6 +22,7 @@ A collection of 3 comprehensive business intelligence and product analytics case
 
 # 💊 Solution
 ### **🔸 Case 1**
+🔗[Case1_Analysis](https://docs.google.com/spreadsheets/d/1AsdD-VSFxcaEIKJax-SsaWnrhSkeIyWGJWtA3pVvuSE/edit?usp=sharing)
 
 - **Top 3 Segments to Scale:** Focus on the latest available month (June) combined with positive dynamics rather than using a static 6-month average.
     - **Google × English:** Peak economics. June performance reaches $\\approx 2.67x$ and shows clear growth ($\\text{Jan: } 2.09 \\rightarrow \\text{Jun: } 2.67$).
@@ -37,6 +39,7 @@ A collection of 3 comprehensive business intelligence and product analytics case
 - **Why Blends Deceive (Volume Weighting Bias):** Google × Arabic commands $\\approx 69\\%$ of the entire Google ad spend but operates at a failing $\\approx 0.61x$ return (driven by a low $\\$15$ LTV from low-quality traffic despite standard CAC). This heavy volume drags down the entire Google-blended performance, masking the high returns of Google × English and Google × Spanish. Symmetrically, Google × Arabic represents $\\approx 81\\%$ of total Arabic spend, causing the entire language cut to look dead.
 
 ### **🔸 Case 2**
+🔗[Case2_Analysis](https://docs.google.com/spreadsheets/d/1HQwTLh3tgBxgRFRbbnBShTUaObutD7G1MQ146ME8c6M/edit?usp=sharing)
 
 - **Targeted Game Recommendations:** Determined using a weighted $W2$ retention metric on a synchronized data horizon.
     - **Speech $\\rightarrow$ ChatterChimps:** $36\\%$ retention (New game; launched at $W05$ across 20 active cohorts. Legacy benchmark _MrMumbles_ underperforms at $27.5\\%$).
@@ -49,6 +52,7 @@ A collection of 3 comprehensive business intelligence and product analytics case
 - **Trap #3 — The Generalization Blindspot:** Applying a global, unsegmented $W2$ weighted average crowns _StoryForest_ ($\\approx 31.6\\%$) as the universal recommendation across all verticals. However, _StoryForest_ underperforms in alternative segments: Speech favors _ChatterChimps_ ($38\\%$ vs. $23\\%$) and Motor favors _WiggleWorms_ ($37\\%$ vs. $21\\%$). A single generic product deployment fails to optimize 2 out of the 3 user intents.
 
 ### **🔸 Case 3**
+🔗[Case3_Analysis](https://docs.google.com/spreadsheets/d/1nnnhAHXJne0ozy6qOyCa0F8m3QFq6qoA4nwHjIyoyp8/edit?usp=sharing)
 
 - **Core Performance Verdict:** The new paywall configuration delivers superior overall monetization performance, generating an ARPU of **$\\$1.8$** compared to the legacy paywall's **$\\$1.6$** ($+11.8\\%$ net expansion).
 - **Trap #1 — The ARPPU Deception:** The blended ARPPU (Average Revenue Per Paying User) of the new paywall architecture is structurally lower than the legacy framework: **$\\$59.28$** vs. **$\\$67.54$**. Stopping analysis at this metric yields the false conclusion that the new paywall underperforms.
